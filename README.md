@@ -1,2 +1,2 @@
 # imageCompressor
-test fork
+test fork 2
