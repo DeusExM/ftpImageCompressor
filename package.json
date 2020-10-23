@@ -1,0 +1,23 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image-resize-sharp.js",
+  "dependencies": {
+    "gifsicle": "^5.1.0",
+    "is-image": "^3.0.0",
+    "move-file": "^2.0.0",
+    "pngquant-bin": "^6.0.0",
+    "sharp": "^0.26.2"
+  },
+  "devDependencies": {
+    "compress-images": "^1.9.5",
+    "ftp-deploy": "^2.3.8",
+    "mv": "^2.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
