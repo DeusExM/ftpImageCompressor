@@ -1,19 +1,7 @@
 ﻿/* fichier: deploy.js */
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
-
-var config = {
-  user: "username",
-  password: "password",
-  host: "ftp address",
-  port: 21,
-  localRoot: __dirname + '/final/',
-  remoteRoot: 'chapier_lu/images/product/',  //images/product/
-  include: ['*.png', '**/*'],
-  exclude: ["dist/**/*.map", "node_modules/**", "node_modules/**/.*", ".git/**"],
-  deleteRemote: false,
-  forcePasv: true
-}
+var config = require('./config');
 
 ftpDeploy.deploy(config)
   .then(res => console.log('finished:', res))

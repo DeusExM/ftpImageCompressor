@@ -3,10 +3,8 @@ const sharp = require('sharp');
 const fs = require('fs');
 const isImage = require('is-image');
 
-var path = require('path')
-
-let input = __dirname + '/images/after/compressed/';
-let output = __dirname + '/images/after/final/';
+let input = __dirname + '/images/done/compressed/';
+let output = __dirname + '/images/done/final/';
 
 let largeSizeDir = '600/';
 let largeSize = '_l';

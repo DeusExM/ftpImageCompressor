@@ -2,8 +2,8 @@
 const fs = require('fs');
 var path = require('path')
 
-let input = __dirname + '/images/after/compressed/';
-let output = __dirname + '/images/after/final/';
+let input = __dirname + '/images/done/compressed/';
+let output = __dirname + '/images/done/final/';
 
 let largeSizeDir = output + '80';
 let smallSizeDir = output + '125';
