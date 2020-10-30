@@ -1,7 +1,6 @@
 ﻿/* fichier: deploy.js */
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
-
 var config = {
   user: "username",
   password: "password",
