@@ -8,7 +8,7 @@ var config = {
   host: "ftp address",
   port: 21,
   localRoot: __dirname + '/done/',
-  remoteRoot: 'chapier_lu/images/product/',  //images/product/
+  remoteRoot: 'path/in/remote',  //images/product/
   include: ['*.png', '**/*'],
   exclude: ["dist/**/*.map", "node_modules/**", "node_modules/**/.*", ".git/**"],
   deleteRemote: false,
