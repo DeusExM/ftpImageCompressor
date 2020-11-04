@@ -2,12 +2,12 @@
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
 var config = {
-  user: "username",
-  password: "password",
-  host: "ftp address",
+  user: "ftpchapier",
+  password: "Azk671Ba",
+  host: "ftp.chapier.lu",
   port: 21,
-  localRoot: __dirname + '/done/',
-  remoteRoot: 'path/in/remote',  //images/product/
+  localRoot: __dirname + '/images/done/final/',
+  remoteRoot: 'chapier_lu/images/product/',  //images/product/
   include: ['*.png', '**/*'],
   exclude: ["dist/**/*.map", "node_modules/**", "node_modules/**/.*", ".git/**"],
   deleteRemote: false,
