@@ -6,7 +6,7 @@ var config = {
   password: "Azk671Ba",
   host: "ftp.chapier.lu",
   port: 21,
-  localRoot: __dirname + '/images/done/final/',
+  localRoot: __dirname + '/images/done/compressed/',
   remoteRoot: 'chapier_lu/images/product/',  //images/product/
   include: ['*.png', '**/*'],
   exclude: ["dist/**/*.map", "node_modules/**", "node_modules/**/.*", ".git/**"],

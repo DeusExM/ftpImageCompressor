@@ -2,8 +2,8 @@ var compress_images = require("compress-images"),
     INPUT_PATH,
     OUTPUT_path;
 
-INPUT_PATH = '/run/user/1000/gvfs/smb-share:server=192.168.5.2,share=marketing/A mettre sur le site/Photos/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
-//allDirectories = 'images/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
+INPUT_PATH =  __dirname + '/images/done/resize/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
+//INPUT_PATH = __dirname + '/images/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
 OUTPUT_path = __dirname + '/images/done/compressed/';
 
 compress_images(INPUT_PATH, OUTPUT_path, {compress_force: false, statistic: true, autoupdate: true}, false,
